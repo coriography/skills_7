@@ -30,9 +30,21 @@ class Node(object):
         cherry
 
         """
+        # This method should be able to start on the current node, print its data and recursively call the method to print the data for each subsequent node in the linked list.
 
-        # TODO: Complete this method
-        # pass
+        # self.traverse_recursively(self.data)
+
+        # if this is a node, print the data
+        # if not a node, then it's the end of the list???
+        # then print all the rest of the nodes' data
+
+        # why doesn't this work for the first line????
+        # if self.next != None:
+
+        if self:
+            print(self.data)
+            self = self.next
+            Node.traverse_recursively(self)
 
 
 #####################################################################
