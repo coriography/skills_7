@@ -31,9 +31,7 @@ class MarineAnimalNode(object):
         True
 
         """
-        # TODO: Complete this method
-
-        pass
+        self.prey.add(prey)
 
 
 #####################################################################
